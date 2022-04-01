@@ -2,133 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa6fd2a-d1aa-44c0-9737-1c02a5e693bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/copyright.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/custom-page/custom-page.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/custom-page/page.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/framework.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/page/page.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/pug-if/pug-if.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/pug-if/pug-if.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/pug-if/pug-if.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/pug-list/pug-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/pug-list/pug-list.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/pug-list/pug-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/pug-mixin/pug-mixin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/pug-mixin/pug-mixin.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/framework/pug-mixin/pug-mixin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/custom-page/custom-page.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/custom-page/custom-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/button/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/button/button.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/button/button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/carousel/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/carousel/carousel.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/carousel/carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/gui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/gui.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/gui.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/picture/picture.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/picture/picture.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/gui/picture/picture.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/map/map-template.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/map/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/map/map.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/map/map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/project.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/project.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/project.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Altay_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Altayski_kray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Amurskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Arhangelsk_obl-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Arhangelsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Astrahansk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Bachkortostan_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Belgorodsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Bryanskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Byrat_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Camchat_kray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Chechensk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Chelyab_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Chukotsk_ao.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Chuvash_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Crim.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Dagestan_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Evreysk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/HMAO.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Habarovsk_kray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Hakasia_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Ingush_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Irkutsk.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Irkutskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Ivanovskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Kabardino-Balkarsk_kray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Kalmikia_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Kalujsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Karach-Cherkes_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Karelia_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Kemerovskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Kirovsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Komi_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Kostromskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Krasnodarsk_kray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Krasnoyar_kray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Kyrsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Leningradsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Lipeckay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Magadansk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Mari-El_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Mordovia_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Moscow_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Murmansk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Nenecki_ao.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Nijegorodsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Novgorodsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Novosib_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Omskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Orenburg_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Orlovsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Penzensk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Perm_kray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Primorsk_kray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Ryazanskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Saha_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Sahalinsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Samarskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Saratovsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Severnay-Osetia.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Smolensk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Stavropolsk_kray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Sverdlovck_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Tambovsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Tatarstan_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Tiva_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Tomskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Tulskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Tumenskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Tverskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Vladimirskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Volgograd_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Vologodskay_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Voronejsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/YNAO.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Yaroslavl_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Ydmurt_resp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Ylianovsk_obl.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/images/parts/Zabaykal_kray.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/scripts/anchorSmoothScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/style/_adaptive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/style/_constants.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/style/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/style/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/style/_texts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/project/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/project/project.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/project.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/project.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +137,7 @@
       <workItem from="1643889666751" duration="774000" />
       <workItem from="1648646074936" duration="492000" />
       <workItem from="1648801214504" duration="269000" />
-      <workItem from="1648804270673" duration="5042000" />
+      <workItem from="1648804270673" duration="5456000" />
     </task>
     <servers />
   </component>
