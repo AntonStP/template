@@ -1,3 +1,10 @@
+@import "normalize";
+@import "constants";
+@import "adaptive";
+@import "mixins";
+@import "texts";
+
+@import "./../components/project/project";
 $font-size: 33px;
 $font-color: green;
 
