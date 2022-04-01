@@ -1,6 +1,6 @@
 {
   "og": {
-    "title": "test",
+    "title": "Map",
     "description": "test-description",
     "canonical_url": "",
     "image": {
@@ -10,5 +10,1009 @@
         "height": 630
       }
     }
+  },
+
+  "map": {
+    "parts": [
+
+      {
+        "mod": "",
+        "coord": {
+          "x": "16.5",
+          "y": "234.79"
+        },
+       
+        "image": {
+          "img": {
+            "src": "images/parts/Crim.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Perm_kray.svg"
+          }
+        }
+      },
+      {
+        "mod": "Camchat_kray",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Camchat_kray.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Krasnoyar_kray.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Zabaykal_kray.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Irkutsk.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Irkutskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/YNAO.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Hakasia_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Tomskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Omskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Novosib_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Altayski_kray.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Altay_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Kemerovskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Tiva_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Byrat_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Stavropolsk_kray.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Krasnodarsk_kray.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Karach-Cherkes_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Kabardino-Balkarsk_kray.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Severnay-Osetia.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Ingush_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Chechensk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Dagestan_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Kalmikia_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Astrahansk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Volgograd_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Rostovskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Kaliningradsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Arhangelsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Arhangelsk_obl-2.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Nenecki_ao.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Karelia_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Komi_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Murmansk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Leningradsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Pskovskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Vologodskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Novgorodsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/HMAO.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Sverdlovck_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Chelyab_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Kyrgansk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Tumenskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Kirovsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Bachkortostan_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Ydmurt_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Tatarstan_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Mari-El_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Nijegorodsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Chuvash_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Mordovia_resp.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Penzensk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Ylianovsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Samarskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Saratovsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Orenburg_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Yaroslavl_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Tverskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Kostromskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Ivanovskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Vladimirskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Moscow_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Kalujsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Ryazanskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Tulskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Tambovsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Lipeckay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Orlovsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Smolensk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Bryanskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Kyrsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Belgorodsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Voronejsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Sahalinsk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Amurskay_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Evreysk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Habarovsk_kray.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Primorsk_kray.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Magadansk_obl.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Chukotsk_ao.svg"
+          }
+        }
+      },
+      {
+        "mod": "",
+        "coord": {
+          "x": "0",
+          "y": "0"
+        },
+        "image": {
+          "img": {
+            "src": "images/parts/Saha_resp.svg"
+          }
+        }
+      }
+
+    ]
   }
 }
