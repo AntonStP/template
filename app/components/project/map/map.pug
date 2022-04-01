@@ -1,3 +1,13 @@
 mixin map(content,params)
     .map&attributes()
-        include map-template.svg
+        .map__template
+            include map-template.svg
+            .map__complete
+                +pug-list(content.parts, "map__part")
+        .map__parts
+            //+pug-list(content.parts, "map__part")
+
+
+mixin map__part(content,params)
+    .map__part(data-xxx=content.coord.x data-yyy=content.coord.y)&attributes()
+        +picture(content.image)

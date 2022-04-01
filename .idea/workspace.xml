@@ -3,9 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="cfa6fd2a-d1aa-44c0-9737-1c02a5e693bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/copyright.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/copyright.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/project/custom-page/custom-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/custom-page/custom-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/project/map/map-template.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/map/map-template.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/project/map/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/map/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/project/map/map.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/map/map.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/project/map/map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/map/map.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/project/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/project.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/project/project.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/project.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/project.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Altay_resp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Altay_resp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Altayski_kray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Altayski_kray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Amurskay_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Amurskay_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Arhangelsk_obl-2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Arhangelsk_obl-2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Arhangelsk_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Arhangelsk_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Astrahansk_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Astrahansk_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Bachkortostan_resp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Bachkortostan_resp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Camchat_kray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Camchat_kray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Chelyab_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Chelyab_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Evreysk_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Evreysk_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Habarovsk_kray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Habarovsk_kray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Ingush_resp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Ingush_resp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Kabardino-Balkarsk_kray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Kabardino-Balkarsk_kray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Kaliningradsk_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Kaliningradsk_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Karach-Cherkes_resp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Karach-Cherkes_resp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Kirovsk_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Kirovsk_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Kyrsk_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Kyrsk_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Murmansk_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Murmansk_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Novosib_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Novosib_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Orenburg_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Orenburg_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Primorsk_kray.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Primorsk_kray.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Ryazanskay_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Ryazanskay_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Saratovsk_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Saratovsk_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Tatarstan_resp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Tatarstan_resp.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Volgograd_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Volgograd_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Voronejsk_obl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Voronejsk_obl.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/images/parts/Ydmurt_resp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/images/parts/Ydmurt_resp.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +67,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -46,11 +78,11 @@
       <recent name="D:\template\app\style\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\temp\app\images" />
+      <recent name="D:\temp\app\images\parts" />
       <recent name="D:\temp\app\scripts" />
       <recent name="D:\temp\app\style" />
       <recent name="D:\temp\app\components\project\gui" />
-      <recent name="D:\temp\app\components\project" />
-      <recent name="D:\temp\app\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -137,7 +169,7 @@
       <workItem from="1643889666751" duration="774000" />
       <workItem from="1648646074936" duration="492000" />
       <workItem from="1648801214504" duration="269000" />
-      <workItem from="1648804270673" duration="5456000" />
+      <workItem from="1648804270673" duration="21588000" />
     </task>
     <servers />
   </component>

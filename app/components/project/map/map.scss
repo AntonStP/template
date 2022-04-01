@@ -1,9 +1,49 @@
 .map {
-  @include option(width, 1251px*0.6);
-  @include option(height, 664px*0.6);
-  svg {
+  @mixin mod($mod) {
+    @include modifier("button", $mod) {
+      @content;
+    }
+  }
+
+  position: relative;
+
+  &__template {
+    position: relative;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    margin: 0 auto;
+
+    //@include option(width, 1251px*0.8);
+    //@include option(height, 664px*0.8);
+    svg {
+      display: block;
+      //width: 100%;
+      //height: 100%;
+    }
+    .map__complete {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  &__parts {
+    //position: absolute;
     width: 100%;
     height: 100%;
+    bottom: 0;
+  }
+
+  &__part {
+    position: absolute;
+    //right: 0;
+    //display: inline-block;
+    transition: transform .3s ease-in-out;
+    cursor: pointer;
+    img {
+      //width: 100%;
+      //height: 100%;
+    }
   }
 
 }
