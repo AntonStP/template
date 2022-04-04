@@ -3,8 +3,8 @@ const template = document.querySelector('#svg-template');
 const completeDiv = document.querySelector('.map__complete');
 
 
-template.style.width = `${template.clientWidth*0.85}px`;
-template.style.height = `${template.clientHeight*0.85}px`;
+template.style.width = `${template.clientWidth*1}px`;
+template.style.height = `${template.clientHeight*1}px`;
 templateDiv.style.opacity = '1';
 
 [templateDiv,completeDiv].forEach((el)=> {
@@ -26,8 +26,8 @@ Array.from(parts).forEach((el,id)=> {
     let y = partsDiv[id].dataset.yyy;
     console.log("x",x)
 
-    el.style.width = `${w*0.85}px`;
-    el.style.height = `${h*0.85}px`;
+    el.style.width = `${w*1}px`;
+    el.style.height = `${h*1}px`;
     partsDiv[id].style.top = `${y}px`;
     partsDiv[id].style.left = `${x}px`;
 });
@@ -61,8 +61,8 @@ document.addEventListener('mousedown', function (event) {
     document.addEventListener('mousemove', onMouseMove);
 
     target.onmouseup = function() {
-        console.log("top", target.getBoundingClientRect().top)
-        console.log("left", target.getBoundingClientRect().left - tCoord.left)
+        console.log("x", target.getBoundingClientRect().left - tCoord.left)
+        console.log("y", target.getBoundingClientRect().top)
         target.style.zIndex = '1';
         document.removeEventListener('mousemove', onMouseMove);
         target.onmouseup = null;
