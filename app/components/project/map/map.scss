@@ -1,29 +1,44 @@
 .map {
   @mixin mod($mod) {
-    @include modifier("button", $mod) {
+    @include modifier("map", $mod) {
+      @content;
+    }
+  }
+
+  @mixin temp($mod) {
+    @include modifier("map__template", $mod) {
       @content;
     }
   }
 
   position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 
   &__template {
     position: relative;
+    //left: 50%;
+    //transform: translate(-50%,0%);
+    //margin: 0 auto;
     opacity: 0;
-    transition: opacity .3s ease-in-out;
-    margin: 0 auto;
-
-    //@include option(width, 1251px*0.8);
-    //@include option(height, 664px*0.8);
+    path {
+      fill: #3CB371;
+      transition: fill 0s 1.5s;
+    }
     svg {
       display: block;
-      //width: 100%;
-      //height: 100%;
     }
     .map__complete {
       position: absolute;
       top: 0;
       left: 0;
+    }
+    &_crashed {
+      animation: map-chashing 1.3s ease-in-out both;
+      path {
+        fill: $WHITE;
+      }
     }
   }
 
@@ -43,6 +58,16 @@
     img {
       //width: 100%;
       //height: 100%;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,0%);
+    @include temp("crashed") {
+      display: none;
     }
   }
 
