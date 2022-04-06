@@ -12,15 +12,15 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  @include option(width, 160, auto);
-  @include option(height, 50);
+  @include option(width, 196px);
+  @include option(height, 48px);
   text-decoration: none;
   font-family: $BASE-FONT;
-  @include option(font-size, 18px, 15px);
+  @include option(font-size, 24px);
   color: $WHITE;
   border: none;
   letter-spacing: 0.01em;
-  @include option(border-radius, 100);
+  @include option(border-radius, 20px);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -42,62 +42,29 @@
     left: 0;
     width: 100%;
     height: 100%;
-    @include option(border-radius, 8px);
+    @include option(border-radius, 20px);
     overflow: hidden;
     will-change: transform;
-    background: #E93A7D;
-    @include mod("card") {
-      background: transparent;
-      &:after {
-        background: #E93A7D;
-      }
-    }
-
-    &:after {
-      content: "";
-      clear: both;
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: #df598c;
-      transition: opacity .3s ease-in-out;
-      opacity: 0;
-      will-change: transform;
-    }
+    background: #00AEC7;
+    border: 1px dashed #00AEC7;
+    transition: background-color .3s ease-in-out;
+    box-sizing: border-box;
   }
 
   @include HOVER {
-    &:hover .button__bg:after {
-      opacity: 1;
+    &:hover .button__bg {
+      background: $WHITE;
+    }
+    &:hover .button__text {
+      color: #00AEC7;
     }
   }
 
-  @include mod("card") {
-    @include HOVER {
-      &:hover {
-       border: none;
-      }
-    }
-  }
+
 
   &__text {
     position: relative;
     z-index: 1;
-  }
-
-  &_lk {
-    @include option(width, 115px, 70);
-    @include option(height, 50, 25);
-    @include option(font-size, 18px, 10px);
-  }
-
-  &_card {
-    @include option(width, 270, 200);
-    @include option(height, 50);
-    margin-left: auto;
-    margin-right: auto;
+    transition: color .3s ease-in-out;
   }
 }

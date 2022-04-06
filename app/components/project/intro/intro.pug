@@ -1,0 +1,23 @@
+mixin intro(content,params)
+    section.intro&attributes(content.attr||false)&attributes(attributes)
+        .intro__bg 
+            .intro__humans 
+                .intro__humans-back 
+                    +picture(content.back.humansBack)
+                .intro__humans-photo
+                    +picture(content.back.humans)
+        .intro__content 
+            +intro__logo(content.logo)
+            .intro__text !{content.text}
+            +intro__bottom(content.bottom)
+
+
+
+mixin intro__logo(content,params)
+    .intro__logo&attributes(attributes)
+        +picture(content.image)
+
+mixin intro__bottom(content,params)
+    .intro__bottom&attributes(attributes)
+        a.intro__bottom-link&attributes(content.link.attr) !{content.link.text}
+        +button(content.button).intro__button

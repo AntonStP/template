@@ -10,5 +10,84 @@
         "height": 630
       }
     }
+  },
+
+  "intro": {
+    "attr": {
+      "id": "intro"
+    },
+    "back": {
+      "humans": {
+        "list": [
+          {
+            "data-srcset": "images/intro/humans-m.webp 1x, images/intro/humans-m@2x.webp 2x",
+            "media": "(max-width:1023px)",
+            "type": "image/webp"
+          },
+          {
+            "data-srcset": "images/intro/humans-m.png 1x, images/intro/humans-m@2x.png 2x",
+            "media": "(max-width:1023px)"
+          },
+          {
+            "data-srcset": "images/intro/humans.webp",
+            "type": "image/webp"
+          }
+        ],
+        "img": {
+          "data-src": "images/intro/humans.png",
+          "class": "lazyload",
+          "alt": "humans"
+        }    
+      },
+      "humansBack": {
+        "img": {
+          "data-src": "images/intro/humans-back.svg",
+          "class": "lazyload",
+          "alt": "humans-back"
+        }
+      }
+    },
+    "logo": {
+      "image": {
+        "list": [
+          {
+            "data-srcset": "images/intro/logo-m.webp",
+            "media": "(max-width:1023px)",
+            "type": "image/webp"
+          },
+          {
+            "data-srcset": "images/intro/logo-m.png",
+            "media": "(max-width:1023px)"
+          },
+          {
+            "data-srcset": "images/intro/logo.webp",
+            "type": "image/webp"
+          }
+        ],
+        "img": {
+          "data-src": "images/intro/logo.png",
+          "class": "lazyload",
+          "alt": "logo"
+        }
+      }
+    }, 
+    "text": "ПМК&nbsp;&ndash; динамично развивающаяся компания по&nbsp;продаже медицинского оборудования в&nbsp;России и&nbsp;Казахстане. Мы&nbsp;являемся официальным дилером Philips в&nbsp;России, а&nbsp;также партнерами более 500 компаний-производителей оборудования.",
+    "bottom": {
+      "link": {
+        "attr": {
+          "href": "http://www.permedcom.ru",
+          "target": "_blank"
+        },
+        "text": "www.permedcom.ru 6+"
+      },
+      "button": {
+        "tag": "a",
+        "text": "Вакансии",
+        "attr": {
+          "href": "#",
+          "target": "_blank"
+        }
+      }
+    }
   }
 }
