@@ -94,7 +94,7 @@
 @mixin wrapper($w: $WRAPPER-D, $wm:$WRAPPER-D-M){
   @include option(width, $w, $wm);
   margin: 0 auto;
-  max-width: 90%;
+  // max-width: 90%;
   box-sizing: border-box;
   position: relative;
 

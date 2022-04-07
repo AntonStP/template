@@ -62,7 +62,6 @@
         align-items: center;
         width: 93%;
         @include option-mob(width, 270px);
-        margin: 0 auto;
         @include option(padding, 16px 137px 16px 88px, 28px 57px 34px);
         @include option(border-radius, 30px);
         background: rgba(255, 255, 255, 0.9);

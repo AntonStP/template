@@ -1,0 +1,77 @@
+.work {
+    @mixin mod($mod) {
+        @include modifier("button", $mod) {
+            @content;
+        }
+    }
+
+    position: relative;
+
+    &__bg {
+        position: absolute;
+        @include option(top, 92px);
+        left: 50%;
+        @include option(width, $WRAPPER-D, $WRAPPER-D-M);
+        height: 100%;
+        transform: translate(-50%,0%);
+    }
+
+    &__working {
+        position: absolute;
+        @include option(top, 0px);
+        @include option(left, 0px);
+        @include option(height, 646px);
+    }
+
+    &__content {
+        @include wrapper();
+        @include option(padding, 240px 0 20px);
+    }
+
+    &__text {
+        @include option(padding, 0 110px 0 576px);
+        @include option(font-size, 16px);
+        letter-spacing: 0.001em;
+        box-sizing: border-box;
+        p {
+            margin: 0;
+            &:first-of-type {
+                @include option(margin, 0 0 42px);
+            }
+        }
+        b {
+            @include option(font-size, 24px);
+            text-transform: uppercase;
+         
+        }
+        span {
+            display: inline-block;
+            color: #2DB5D3;
+            margin: 0 0 0.6em 0;
+        }
+    }
+
+    &__advantages {
+        @include option(margin, 134px 0 0 0);
+    }
+
+    &__advantage {
+        @include option(width, 290px);
+        height: auto;
+        @include option(padding, 33px 41px 34px);
+        @include option(border-radius, 30px);
+        border: 1px solid rgba(136, 140, 140, 0.4);
+        background: $WHITE;
+        box-sizing: border-box;
+        &-icon {
+            @include option(height, 65px);
+            font-weight: bold;
+        }
+        &-name {
+            @include option(margin, 23px 0 17px);
+            @include option(font-size, 24px);
+
+        }
+    }
+
+}

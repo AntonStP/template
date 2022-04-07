@@ -1,0 +1,19 @@
+mixin work(content,params)
+    section.work&attributes(content.attr||false)&attributes(attributes)
+        .work__bg 
+            .work__working
+                +picture(content.working)
+        .work__content 
+            .work__text
+                p !{content.text.p1}
+                p !{content.text.p2}
+            .work__advantages 
+                +carousel(content.advantages, "work__advantage")
+
+
+mixin work__advantage(content,params)
+    .work__advantage&attributes(content.attr||false)&attributes(attributes)
+        .work__advantage-icon 
+            +picture(content.icon)
+        .work__advantage-name !{content.name}
+        .work__advantage-description !{content.description}

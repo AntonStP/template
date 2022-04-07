@@ -89,5 +89,83 @@
         }
       }
     }
+  },
+
+  "work": {
+    "attr": {
+      "id": "work"
+    },
+    "working": {
+      "list": [
+        {
+          "data-srcset": "images/work/working-m.webp 1x, images/work/working-m@2x.webp 2x",
+          "media": "(max-width:1023px)",
+          "type": "image/webp"
+        },
+        {
+          "data-srcset": "images/work/working-m.png 1x, images/work/working-m@2x.png 2x",
+          "media": "(max-width:1023px)"
+        },
+        {
+          "data-srcset": "images/work/working.webp",
+          "type": "image/webp"
+        }
+      ],
+      "img": {
+        "data-src": "images/work/working.png",
+        "class": "lazyload",
+        "alt": "working"
+      }    
+    },
+    "text": {
+      "p1": "За&nbsp;4&nbsp;года успешной работы наши эксперты поставили более 10&nbsp;тыс. единиц медицинской техники и&nbsp;инструмента, реализовали несколько сотен комплексных проектов клиник и&nbsp;кабинетов. Мы&nbsp;осуществляем медицинское оснащение на&nbsp;высоком уровне&nbsp;&mdash; для врачей, пациентов и&nbsp;бизнеса.",
+      "p2": "<b>Работа в&nbsp;<span>Первой Медицинской компании</span></b> <br/>&mdash;&nbsp;это возможность реализовать свой потенциал и&nbsp;развить свои профессиональные компетенции в&nbsp;команде единомышленников!"
+    },
+    "advantages": [
+      {
+        "icon": {
+          "img": {
+            "src": "images/work/icon-1.svg",
+            "class": "lazyload",
+            "alt": "advantage-icon"
+          }
+        },
+        "name": "Обучение",
+        "description": "Помимо стандартного введения в&nbsp;должность и&nbsp;знакомства с&nbsp;продуктами &laquo;ПМК&raquo; дает возможность своим специалистам постоянно расширять свои знания и&nbsp;развивать компетенции за&nbsp;счет привлечения сторонних источников"
+      },
+      {
+        "icon": {
+          "img": {
+            "src": "images/work/icon-2.svg",
+            "class": "lazyload",
+            "alt": "advantage-icon"
+          }
+        },
+        "name": "Современный офис в&nbsp;центре города",
+        "description": "На&nbsp;рабочем месте мы&nbsp;проводим большую часть жизни, поэтому мы&nbsp;сделали наш офис максимально комфортным и&nbsp;удобным"
+      },
+      {
+        "icon": {
+          "img": {
+            "src": "images/work/icon-3.svg",
+            "class": "lazyload",
+            "alt": "advantage-icon"
+          }
+        },
+        "name": "Корпоративный отдых",
+        "description": "Работать в&nbsp;&laquo;ПМК&raquo; круто еще и&nbsp;потому, что мы&nbsp;умеем отдыхать&nbsp;&mdash; с&nbsp;размахом и&nbsp;душой!"
+      },
+      {
+        "icon": {
+          "img": {
+            "src": "images/work/icon-4.svg",
+            "class": "lazyload",
+            "alt": "advantage-icon"
+          }
+        },
+        "name": "Здоровье",
+        "description": "&laquo;ПМК&raquo; заботится о&nbsp;своих сотрудниках! У&nbsp;нас действует ДМС не&nbsp;только для команды, но&nbsp;и&nbsp;для членов их&nbsp;семей."
+      }
+    ] 
   }
 }
