@@ -1,12 +1,15 @@
 .custom-page {
   height: 100%;
   min-height: 100vh;
+  @include option(width, $WRAPPER-D, $WRAPPER-D-M);
+  margin: 0 auto;
   position: relative;
   @extend %DEFAULT;
   letter-spacing: 0.02em;
+  background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 70.67%);
 
   //background: #ee392e;
-  overflow: hidden;
+  // overflow: hidden;
 
   img {
     height: 100%;
