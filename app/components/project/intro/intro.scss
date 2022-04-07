@@ -11,7 +11,7 @@
         position: absolute;
         top: 0%;
         left: 50%;
-        @include option(width, $DESIGN-W, $DESIGN-W-M);
+        @include option(width, $WRAPPER-D, $WRAPPER-D-M);
         height: 100%;
         transform: translate(-50%,0%);
     }
@@ -19,11 +19,11 @@
     &__humans {
         position: absolute;
         right: 0;
-        top: 0;
-        @include option(height, 695px);
+        @include option(top, 0px, 298px);
+        @include option(height, 695px, 256px);
         &-back {
             position: absolute;
-            top: 0%;
+            top: 1px;
             right: 1px;
             height: 100%;
         }
@@ -34,35 +34,49 @@
     }
 
     &__content {
-        @include wrapper();
-        @include option(padding, 94px 0 20px);
+        @include wrapper($w:1097px, $wm:247px);
+        @include option(padding, 94px 0 20px, 35px 0 20px);
     }
 
     &__logo {
-        @include option(height, 102px);
+        @include option(height, 102px, 46px);
     }
 
     &__text {
-        width: 35%;
-        @include option(margin, 63px 0 79px);
+        @include option(margin, 63px 0 79px, 27px 0 314px);
+        @include option(font-size, 16px, 14px);
+        @include NOT-MOB {
+            width: 35%;
+        }
+        @include MOBILE {
+            line-height: 1.44;
+        }
     }
 
     &__bottom {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0%);
         display: flex;
         justify-content: space-between;
         align-items: center;
         width: 93%;
+        @include option-mob(width, 270px);
         margin: 0 auto;
-        @include option(padding, 16px 137px 16px 88px);
+        @include option(padding, 16px 137px 16px 88px, 28px 57px 34px);
         @include option(border-radius, 30px);
         background: rgba(255, 255, 255, 0.9);
         box-sizing: border-box;
         box-shadow: 0px 2px 10px rgba(0, 58, 64, 0.2);
         &-link {
-            @include option(font-size, 24px);
+            @include option-mob(margin, 0 0 16px);
+            @include option(font-size, 24px, 14px);
             font-weight: bold;
             letter-spacing: 0.001em;
             text-decoration: none;
+        }
+        @include MOBILE {
+            flex-direction: column;
         }
     }
 

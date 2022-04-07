@@ -12,15 +12,15 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  @include option(width, 196px);
-  @include option(height, 48px);
+  @include option(width, 196px, 142px);
+  @include option(height, 48px, 35px);
   text-decoration: none;
   font-family: $BASE-FONT;
-  @include option(font-size, 24px);
+  @include option(font-size, 24px, 16px);
   color: $WHITE;
   border: none;
   letter-spacing: 0.01em;
-  @include option(border-radius, 20px);
+  @include option(border-radius, 20px, 15px);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -42,7 +42,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    @include option(border-radius, 20px);
+    @include option(border-radius, 20px, 15px);
     overflow: hidden;
     will-change: transform;
     background: #00AEC7;
