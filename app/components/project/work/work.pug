@@ -8,7 +8,7 @@ mixin work(content,params)
                 p !{content.text.p1}
                 p !{content.text.p2}
             .work__advantages 
-                +carousel(content.advantages, "work__advantage")
+                +carousel(content.advantages, {mixin:"work__advantage", id:"1"})
 
 
 mixin work__advantage(content,params)

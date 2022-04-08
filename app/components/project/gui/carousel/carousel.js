@@ -3,7 +3,7 @@ import $ from 'jquery';
 
 $(() => {
 
-  var swiper = new Swiper('.swiper-container', {
+  var swiper = new Swiper('.swiper-container_1', {
     centeredSlides: false,
     slidesPerView: 'auto',
     loop: false,
