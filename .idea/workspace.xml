@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa6fd2a-d1aa-44c0-9737-1c02a5e693bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/project/intro/intro.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/project/intro/intro.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/TrebuchetMS-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/TrebuchetMS-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/TrebuchetMS-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/TrebuchetMS.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/TrebuchetMS.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/TrebuchetMS.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/project/project.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/project.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/project/project.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style/_constants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/_constants.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/project/gui/carousel/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/gui/carousel/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/components/project/gui/carousel/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/gui/carousel/carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,6 +138,7 @@
       <workItem from="1648646074936" duration="492000" />
       <workItem from="1648801214504" duration="269000" />
       <workItem from="1648804270673" duration="5042000" />
+      <workItem from="1649414998502" duration="736000" />
     </task>
     <servers />
   </component>

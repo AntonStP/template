@@ -4,13 +4,16 @@ import $ from 'jquery';
 $(() => {
 
   var swiper = new Swiper('.swiper-container', {
-    grabCursor: true,
+    centeredSlides: false,
+    slidesPerView: 'auto',
+    loop: false,
     breakpoints: {
+      320: {
+
+      },
       1024: {
-        spaceBetween: 100,
-        slidePerView: "auto",
-        centeredSlides: true,
-        watchOverflow: false
+        spaceBetween: 29,
+        watchOverflow: true
       }
     }
   
