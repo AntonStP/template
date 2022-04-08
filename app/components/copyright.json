@@ -166,6 +166,128 @@
         "name": "Здоровье",
         "description": "&laquo;ПМК&raquo; заботится о&nbsp;своих сотрудниках! У&nbsp;нас действует ДМС не&nbsp;только для команды, но&nbsp;и&nbsp;для членов их&nbsp;семей."
       }
+    ],
+    "photos": [
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcset": "images/work/slide-1-m.webp 1x, images/work/slide-1-m@2x.webp 2x",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcset": "images/work/slide-1-m.png 1x, images/work/slide-1-m@2x.png 2x",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcset": "images/work/slide-1.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "images/work/slide-1.png",
+            "class": "lazyload",
+            "alt": "photo"
+          }    
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcset": "images/work/slide-2-m.webp 1x, images/work/slide-2-m@2x.webp 2x",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcset": "images/work/slide-2-m.png 1x, images/work/slide-2-m@2x.png 2x",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcset": "images/work/slide-2.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "images/work/slide-2.png",
+            "class": "lazyload",
+            "alt": "photo"
+          }    
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcset": "images/work/slide-3-m.webp 1x, images/work/slide-3-m@2x.webp 2x",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcset": "images/work/slide-3-m.png 1x, images/work/slide-3-m@2x.png 2x",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcset": "images/work/slide-3.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "images/work/slide-3.png",
+            "class": "lazyload",
+            "alt": "photo"
+          }    
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcset": "images/work/slide-4-m.webp 1x, images/work/slide-4-m@2x.webp 2x",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcset": "images/work/slide-4-m.png 1x, images/work/slide-4-m@2x.png 2x",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcset": "images/work/slide-4.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "images/work/slide-4.png",
+            "class": "lazyload",
+            "alt": "photo"
+          }    
+        }
+      },
+      {
+        "image": {
+          "list": [
+            {
+              "data-srcset": "images/work/slide-5-m.webp 1x, images/work/slide-5-m@2x.webp 2x",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcset": "images/work/slide-5-m.png 1x, images/work/slide-5-m@2x.png 2x",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcset": "images/work/slide-5.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "images/work/slide-5.png",
+            "class": "lazyload",
+            "alt": "photo"
+          }    
+        }
+      }
     ] 
   }
 }

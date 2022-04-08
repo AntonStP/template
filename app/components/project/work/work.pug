@@ -9,6 +9,14 @@ mixin work(content,params)
                 p !{content.text.p2}
             .work__advantages 
                 +carousel(content.advantages, {mixin:"work__advantage", id:"1"})
+            .work__photos
+                +carousel(content.photos, {mixin:"work__photo", id:"2"})
+                .work__photos-bar
+                    .work__photos-nav_prev
+                        include arrow.svg
+                    .work__photos-pagination
+                    .work__photos-nav_next
+                        include arrow.svg
 
 
 mixin work__advantage(content,params)
@@ -17,3 +25,7 @@ mixin work__advantage(content,params)
             +picture(content.icon)
         .work__advantage-name !{content.name}
         .work__advantage-description !{content.description}
+
+mixin work__photo(content,params)
+    .work__photo&attributes(content.attr||false)&attributes(attributes)
+        +picture(content.image)
