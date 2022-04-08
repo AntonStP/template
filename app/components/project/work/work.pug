@@ -7,15 +7,17 @@ mixin work(content,params)
             .work__text
                 p !{content.text.p1}
                 p !{content.text.p2}
+                p !{content.text.p3}
             .work__advantages 
                 +carousel(content.advantages, {mixin:"work__advantage", id:"1"})
+                .work__advantages-pagination
             .work__photos
                 +carousel(content.photos, {mixin:"work__photo", id:"2"})
                 .work__photos-bar
-                    .work__photos-nav_prev
+                    .work__photos-nav.work__photos-nav_prev
                         include arrow.svg
                     .work__photos-pagination
-                    .work__photos-nav_next
+                    .work__photos-nav.work__photos-nav_next
                         include arrow.svg
 
 

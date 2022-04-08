@@ -9,7 +9,7 @@
 
     &__bg {
         position: absolute;
-        @include option(top, 92px);
+        top: 0;
         left: 50%;
         @include option(width, $WRAPPER-D, $WRAPPER-D-M);
         height: 100%;
@@ -18,59 +18,80 @@
 
     &__working {
         position: absolute;
-        @include option(top, 0px);
+        @include option(top, 92px, 25px);
         @include option(left, 0px);
-        @include option(height, 646px);
+        @include option(height, 646px, 313px);
     }
 
     &__content {
         @include wrapper();
-        @include option(padding, 240px 0 20px);
+        @include option(padding, 240px 0 20px, 384px 0 20px);
     }
 
     &__text {
-        @include option(padding, 0 110px 0 576px);
-        @include option(font-size, 16px);
+        @include option(padding, 0 110px 0 576px, 0 0 0 11px);
+        @include option(font-size, 16px, 14px);
         letter-spacing: 0.001em;
         box-sizing: border-box;
         p {
             margin: 0;
             &:first-of-type {
-                @include option(margin, 0 0 42px);
+                @include option(margin, 0 0 42px, 0 0 36px);
+            }
+            @include MOBILE {
+                line-height: 1.41;
+            }
+            &:last-of-type {
+                @include option(margin, 0, 8px 0 0 0);
             }
         }
         b {
-            @include option(font-size, 24px);
+            @include option(font-size, 24px, 22px);
             text-transform: uppercase;
-         
         }
         span {
             display: inline-block;
             color: #2DB5D3;
             margin: 0 0 0.6em 0;
+            @include MOBILE {
+                display: inline;
+            }
         }
     }
 
     &__advantages {
-        @include option(margin, 134px 0 97px 0);
+        @include option(margin, 134px 0 97px 0, 46px 0 40px);
+    }
+
+    &__advantages-pagination {
+        display: flex;
+        justify-content: space-between;
+        @include option(width, 60px);
+        @include option(margin, 21px auto 0);
+
     }
 
     &__advantage {
-        @include option(width, 290px);
+        @include option(width, 290px, 270px);
         height: auto;
-        @include option(padding, 33px 41px 34px);
+        @include option(padding, 33px 41px 34px, 29px 40px 40px);
         @include option(border-radius, 30px);
         border: 1px solid rgba(136, 140, 140, 0.4);
         background: $WHITE;
         box-sizing: border-box;
         &-icon {
-            @include option(height, 65px);
+            @include option(height, 65px, 60px);
             font-weight: bold;
         }
         &-name {
             @include option(margin, 23px 0 17px);
-            @include option(font-size, 24px);
-
+            @include option(font-size, 24px, 22px);
+        }
+        &-description {
+            @include option(font-size, 16px, 14px);
+            @include MOBILE {
+                line-height: 1.43;
+            }
         }
     }
 
@@ -79,41 +100,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @include option(width, 253px);
-        @include option(margin, 31px auto 0)
+        @include option(width, 253px, 79px);
+        @include option(margin, 31px auto 0, 20px auto 0);
     }
 
     &__photos-pagination {
         display: flex;
         justify-content: space-between;
         @include option(width, 110px);
-        .swiper-pagination-bullet {
-            position: relative;
-            @include option(width, 12px);
-            @include option(height, 12px);
-            border: 1px solid rgba(44, 62, 80, 0.3);
-            border-radius: 50%;
-            overflow: hidden;
-            box-sizing: border-box;
-            &::after {
-                content: '';
-                position: absolute;
-                left: 0;
-                top: 0;
-                width: 100%;
-                height: 100%;
-                background: #2DB5D3;
-                opacity: 0;
-                transition: opacity .1s ease-in-out;
-            }
-            &-active {
-                border: 1px solid rgba(#2DB5D3, 1);
-                &::after {
-                    opacity: 1;
-                }
-            }
-
-        }
     }
 
     &__photos-nav {
@@ -131,7 +125,9 @@
             svg {
                 transform: rotate(180deg);
             }
-            
+        }
+        @include MOBILE {
+            display: none;
         }
 
     }
