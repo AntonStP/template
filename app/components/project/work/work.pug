@@ -24,7 +24,14 @@ mixin work(content,params)
 mixin work__advantage(content,params)
     .work__advantage&attributes(content.attr||false)&attributes(attributes)
         .work__advantage-icon 
-            +picture(content.icon)
+            if (content.id == "1")
+                include icon-1.svg
+            if (content.id == "2")
+                include icon-2.svg
+            if (content.id == "3")
+                include icon-3.svg
+            if (content.id == "4")
+                include icon-4.svg
         .work__advantage-name !{content.name}
         .work__advantage-description !{content.description}
 
