@@ -42,7 +42,7 @@
   "dependencies": {
     "lazysizes": "^5.3.2",
     "normalize.css": "latest",
-    "swiper": "^6.8.4",
+    "swiper": "latest",
     "jquery": "^3.5.1"
   }
 }

@@ -1,9 +1,10 @@
-import Swiper from 'swiper';
+import Swiper, { Navigation, Pagination } from 'swiper';
 import $ from 'jquery';
 
 $(() => {
 
   var swiper = new Swiper('.swiper-container_1', {
+    modules: [ Navigation, Pagination ],
     centeredSlides: false,
     slidesPerView: 'auto',
     loop: false,
@@ -24,6 +25,7 @@ $(() => {
   });
 
   var swiper_2 = new Swiper('.swiper-container_2', {
+    modules: [ Navigation, Pagination ],
     centeredSlides: true,
     slidesPerView: 'auto',
     loop: false,
@@ -47,6 +49,7 @@ $(() => {
 
 
   var swiper_3 = new Swiper('.swiper-container_3', {
+    modules: [ Navigation, Pagination ],
     centeredSlides: true,
     slidesPerView: 'auto',
     loop: false,

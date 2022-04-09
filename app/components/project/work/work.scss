@@ -114,6 +114,7 @@
         @include option(width, 25px);
         @include option(height, 25px);
         transition: opacity .3s ease-in-out;
+        cursor: pointer;
         svg {
             width: 100%;
             height: 100%;

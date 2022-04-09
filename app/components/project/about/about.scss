@@ -7,11 +7,21 @@
 
     &__content {
         @include wrapper();
-        @include option(padding, 9px 0 218px, 71px 0 0);
+        @include option(padding, 9px 0 218px, 53px 0 100px);
     }
 
     &__workers {
         position: relative;
+    }
+
+    &__pagination {
+        display: flex;
+        justify-content: space-between;
+        @include option-mob(width, 43px);
+        @include option-mob(margin, 35px auto 0);
+        @include DESKTOP {
+            display: none;
+        }
     }
 
     &__worker {
@@ -70,10 +80,13 @@
         display: flex;
         justify-content: space-between;
         position: absolute;
-        @include option(bottom, 75px);
-        @include option(left, 79px);
-        @include option(width, 73px);
+        @include option-desk(bottom, 75px);
+        @include option-desk(left, 79px);
+        @include option-desk(width, 73px);
         z-index: 10;
+        @include MOBILE {
+            display: none
+        }
     }
 
     &__nav {
