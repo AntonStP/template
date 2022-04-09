@@ -1,6 +1,6 @@
 .work {
     @mixin mod($mod) {
-        @include modifier("button", $mod) {
+        @include modifier("work", $mod) {
             @content;
         }
     }
@@ -60,7 +60,7 @@
     }
 
     &__advantages {
-        @include option(margin, 134px 0 97px 0, 46px 0 40px);
+        @include option(margin, 134px 0 77px 0, 46px 0 40px);
     }
 
     &__advantages-pagination {

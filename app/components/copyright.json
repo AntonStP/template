@@ -290,5 +290,115 @@
         }
       }
     ] 
+  },
+
+  "about": {
+    "attr": {
+      "id": "about"
+    },
+    "list": [
+      {
+        "name": "Сергей Данилов",
+        "function": "директор по&nbsp;работе с&nbsp;партнерами",
+        "info": "В&nbsp;&laquo;ПМК&raquo; я&nbsp;работаю с&nbsp;марта 2019 года и&nbsp;прошел путь от&nbsp;менеджера до&nbsp;директора отдела по&nbsp;работе с&nbsp;партнерами. Секрет моего успеха в&nbsp;том, что работа приносит мне удовольствие. Для меня важно работать в&nbsp;команде единомышленников, а&nbsp;коллектив &laquo;ПМК&raquo;&nbsp;&mdash; это большая дружная семья, где каждый поддержит и&nbsp;поможет, когда это необходимо. Что еще очень важно&nbsp;&mdash; здесь к&nbsp;мнению сотрудников действительно прислушиваются. Все это позволяет мне развивать свои профессиональные компетенции каждый день. &laquo;ПМК&raquo;&nbsp;&mdash; это команда, и&nbsp;нас не&nbsp;остановить!",
+        "image": {
+          "list": [
+            {
+              "data-srcset": "images/about/human1-m.webp 1x, images/about/human1-m@2x.webp 2x",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcset": "images/about/human1-m.png 1x, images/about/human1-m@2x.png 2x",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcset": "images/about/human1.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "images/about/human1.png",
+            "class": "lazyload",
+            "alt": "photo"
+          }    
+        },
+        "bg": {
+          "img": {
+            "data-src": "images/about/bg1.svg",
+            "class": "lazyload",
+            "alt": "background"
+          }
+        }
+      },
+      {
+        "name": "Анастасия Тюкова",
+        "function": "маркетолог",
+        "info": "Рабочие будни в&nbsp;&laquo;ПМК&raquo; не&nbsp;бывают унылыми и&nbsp;вялыми&nbsp;&mdash; каждый день мы&nbsp;решаем самые разные задачи, поэтому постоянно учимся новому: в&nbsp;продажах, маркетинге&nbsp;и, конечно, медицине. Удобный рабочий график, современный офис, где созданы все условия для работы и&nbsp;отдыха сотрудников, достойная зарплата&nbsp;&mdash; все это дает желание делать больше и&nbsp;лучше. Кроме совместной работы мы&nbsp;еще и&nbsp;отлично отдыхаем! Дни рождения, Новый год, корпоративы проходят всегда весело и&nbsp;с&nbsp;душой. Я&nbsp;благодарна &laquo;ПМК&raquo; за&nbsp;возможность самореализации, профессионального роста, а&nbsp;также за&nbsp;людей, с&nbsp;которыми работаю.",
+        "image": {
+          "list": [
+            {
+              "data-srcset": "images/about/human2-m.webp 1x, images/about/human2-m@2x.webp 2x",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcset": "images/about/human2-m.png 1x, images/about/human2-m@2x.png 2x",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcset": "images/about/human2.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "images/about/human2.png",
+            "class": "lazyload",
+            "alt": "photo"
+          }    
+        },
+        "bg": {
+          "img": {
+            "data-src": "images/about/bg2.svg",
+            "class": "lazyload",
+            "alt": "background"
+          }
+        }
+      },
+      {
+        "name": "Алина Самсонова",
+        "function": "руководитель отдела логистики",
+        "info": "Я&nbsp;работаю в&nbsp;компании &laquo;ПМК&raquo; меньше года&nbsp;&mdash; и&nbsp;радуюсь этому каждый день! Здесь у&nbsp;меня есть все возможности повышать свои профессиональные навыки, а&nbsp;работать в&nbsp;дружном и&nbsp;сплочённом коллективе&nbsp;&mdash; отдельное удовольствие. Мне очень нравится, что в&nbsp;&laquo;ПМК&raquo; развита корпоративная культура&nbsp;&mdash; она позволяет всегда быть на&nbsp;позитиве. Руководство компании грамотно выстраивает работу каждого сотрудника, всегда открыто для решения рабочих вопросов: человеческое отношение к&nbsp;каждому сотруднику и&nbsp;правильная мотивация&nbsp;&mdash; это большая ценность в&nbsp;&laquo;ПМК&raquo;.",
+        "image": {
+          "list": [
+            {
+              "data-srcset": "images/about/human3-m.webp 1x, images/about/human3-m@2x.webp 2x",
+              "media": "(max-width:1023px)",
+              "type": "image/webp"
+            },
+            {
+              "data-srcset": "images/about/human3-m.png 1x, images/about/human3-m@2x.png 2x",
+              "media": "(max-width:1023px)"
+            },
+            {
+              "data-srcset": "images/about/human3.webp",
+              "type": "image/webp"
+            }
+          ],
+          "img": {
+            "data-src": "images/about/human3.png",
+            "class": "lazyload",
+            "alt": "photo"
+          }    
+        },
+        "bg": {
+          "img": {
+            "data-src": "images/about/bg3.svg",
+            "class": "lazyload",
+            "alt": "background"
+          }
+        }
+      }
+    ]
   }
 }

@@ -1,0 +1,79 @@
+.about {
+    @mixin mod($mod) {
+        @include modifier("about", $mod) {
+            @content;
+        }
+    }
+
+    &__content {
+        @include wrapper();
+        @include option(padding, 9px 0 218px);
+    }
+
+    &__workers {
+        position: relative;
+    }
+
+    &__worker {
+        position: relative;
+        @include option(padding, 116px 545px 150px 78px);
+        letter-spacing: 0.001em;
+        box-sizing: border-box;
+        &-name {
+            @include option(font-size, 24px);
+            font-weight: bold
+        }
+        &-function {
+            @include option(margin, 6px 0 20px);
+            @include option(font-size, 16px);
+        }
+        &-info {
+            @include option(font-size, 16px);
+        }
+        &-preview {
+            position: absolute;
+            top: 0;
+            right: 0;
+            @include option(width, 448px);
+            @include option(height, 499px);
+        }
+        &-bg {
+            position: absolute;
+            @include option(top, 50px);
+            @include option(right, 1px);
+            
+        }
+        &-photo {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__navbar {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        @include option(bottom, 75px);
+        @include option(left, 79px);
+        @include option(width, 73px);
+        z-index: 10;
+    }
+
+    &__nav {
+        @include option(width, 25);
+        @include option(height, 25);
+        cursor: pointer;
+        svg {
+            width: 100%;
+            height: 100%;
+        }
+        &_prev {
+            svg {
+                transform: rotate(180deg);
+            }
+        }
+        
+
+    }
+
+}

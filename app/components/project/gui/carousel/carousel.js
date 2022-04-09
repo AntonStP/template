@@ -45,4 +45,27 @@ $(() => {
     }
   });
 
+
+  var swiper_3 = new Swiper('.swiper-container_3', {
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    loop: false,
+    spaceBetween: 40,
+    breakpoints: {
+      320: {
+        spaceBetween: 35,
+        pagination: {
+          el: '.about__pagination',
+          type: 'bullets',
+        }
+      },
+      1024: {
+        navigation: {
+          nextEl: '.about__nav_next',
+          prevEl: '.about__nav_prev',
+        }
+      }
+    }
+  });
+
 });
