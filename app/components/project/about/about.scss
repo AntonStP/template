@@ -7,7 +7,7 @@
 
     &__content {
         @include wrapper();
-        @include option(padding, 9px 0 218px);
+        @include option(padding, 9px 0 218px, 71px 0 0);
     }
 
     &__workers {
@@ -16,31 +16,48 @@
 
     &__worker {
         position: relative;
-        @include option(padding, 116px 545px 150px 78px);
+        @include option(padding, 116px 545px 150px 78px, 0);
         letter-spacing: 0.001em;
         box-sizing: border-box;
+        &-text {
+            @include option-mob(padding, 0 32px 0 11px);
+            box-sizing: border-box;
+        }
         &-name {
             @include option(font-size, 24px);
             font-weight: bold
         }
         &-function {
-            @include option(margin, 6px 0 20px);
+            @include option(margin, 6px 0 20px, 10px 0 20px);
             @include option(font-size, 16px);
+            @include MOBILE {
+                line-height: 1.3;
+            }
         }
         &-info {
-            @include option(font-size, 16px);
+            @include option(font-size, 16px, 14px);
+            @include MOBILE {
+                line-height: 1.5;
+            }
         }
         &-preview {
             position: absolute;
             top: 0;
             right: 0;
-            @include option(width, 448px);
-            @include option(height, 499px);
+            @include option(width, 448px, 234px);
+            @include option(height, 499px, 261px);
+            @include option(margin, 5px 0 0 auto);
+            @include MOBILE {
+                position: relative;
+                top: auto;
+            }
         }
         &-bg {
             position: absolute;
-            @include option(top, 50px);
+            @include option(top, 50px,25px);
             @include option(right, 1px);
+            @include option-mob(height, 201px);
+
             
         }
         &-photo {

@@ -15,9 +15,10 @@ mixin about(content,params)
 
 mixin about__worker(content,params)
     .about__worker&attributes(content.attr||false)&attributes(attributes)
-        .about__worker-name !{content.name}
-        .about__worker-function !{content.function}
-        .about__worker-info !{content.info}
+        .about__worker-text
+            .about__worker-name !{content.name}
+            .about__worker-function !{content.function}
+            .about__worker-info !{content.info}
         .about__worker-preview
             .about__worker-bg
                 +picture(content.bg)
