@@ -1,0 +1,66 @@
+
+  
+  
+  
+@function fixed($val, $signs: 100){ @return round($signs * $val) / $signs; }
+@function strip-unit($number) {
+  @if type-of($number) == 'number' and not unitless($number) {
+    @return $number / ($number * 0 + 1);
+  }
+  @return $number;
+}
+  
+  
+@function adaptive($from, $to, $item){
+  @if type-of($to) != 'list' {
+    $to: ($to,);
+  }
+  @if type-of($item) != 'list' {
+    $item: ($item,);
+  }
+
+  @if type-of($from) == 'list' {
+    @for $i from 1 through length($from) {
+      $from: set-nth($from, $i, adaptive(nth($from, $i), nth($to, ($i - 1) % length($to) + 1), nth($item, ($i - 1) % length($item) + 1)));
+    }
+
+    @return $from;
+
+  } @else if type-of($from) == "string" {
+    @return $from;
+  }
+
+  $val: $from;
+  @if (type_of($from) == "number") {
+    $unit: unit($from);
+    @if ($unit == "" or $unit == 'px') {
+      $val: fixed( strip-unit($from) / strip-unit(nth($to,1)) * 100, 1000 );
+      @if $val != 0 {
+        $val: $val * nth($item, 1);
+      }
+    }
+  }
+  @return $val;
+
+}
+
+@function vh($v){
+  @return adaptive( $v, $DESIGN-H, 1vh);
+}
+
+@function vw($v){
+  @return adaptive( $v, $DESIGN-W, 1vw);
+}
+
+@function vw-t($v){
+  @return adaptive( $v, $DESIGN-W-M, 1vw*0.75);
+}
+
+@function vw-m($v){
+  @return adaptive( $v, $DESIGN-W-M, 1vw);
+}
+
+@function vh-vw($v){
+  @return adaptive( $v, $DESIGN-H $DESIGN-W, 1vh 1vw);
+}
+

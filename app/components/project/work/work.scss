@@ -61,6 +61,12 @@
 
     &__advantages {
         @include option(margin, 134px 0 77px 0, 46px 0 40px);
+        .swiper-wrapper {
+            @include NOT-MOB {
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
     }
 
     &__advantages-pagination {
@@ -72,7 +78,11 @@
     }
 
     &__advantage {
-        @include option(width, 290px, 270px);
+        @include NOT-MOB {
+            flex: 0 0 23%;
+            margin: 0!important;
+        }
+        @include option-mob(width, 270px);
         height: auto;
         @include option(padding, 33px 41px 34px, 29px 40px 40px);
         @include option(border-radius, 30px);

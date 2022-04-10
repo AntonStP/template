@@ -17,7 +17,6 @@ $(() => {
         },
       },
       1024: {
-        spaceBetween: 29,
         watchOverflow: true,
         pagination: false
       }

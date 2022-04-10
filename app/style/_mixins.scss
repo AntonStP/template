@@ -56,40 +56,39 @@
 }
 
 
-
-@mixin option($n, $v, $vm: $v, $vt: $vm) {
+@mixin option($n, $v, $vm: $v, $vt: $vm){
   @include DESKTOP{
-    #{$n}: $v;
+    #{$n}:vh($v);
   }
   @include TABLET-L{
-    #{$n}: $v;
+    #{$n}:vw($v);
   }
   @include MOBILE{
-    #{$n}: $vm;
+    #{$n}:vw-m($vm);
   }
   @include TABLET{
-    #{$n}: $vt;
+    #{$n}:vw-t($vt);
   }
 }
 
-@mixin option-desk($n, $v) {
+
+@mixin option-mob($n, $vm, $vt: $vm){
+  @include MOBILE{
+    #{$n}:vw-m($vm);
+  }
+  @include TABLET{
+    #{$n}:vw-t($vt);
+  }
+}
+
+@mixin option-desk($n, $v){
   @include DESKTOP{
-    #{$n}: $v;
+    #{$n}:vh($v);
   }
   @include TABLET-L{
-    #{$n}: $v;
+    #{$n}:vw($v);
   }
 }
-
-@mixin option-mob($n, $vm, $vt: $vm) {
-  @include MOBILE{
-    #{$n}: $vm;
-  }
-  @include TABLET{
-    #{$n}: $vt;
-  }
-}
-
 
 @mixin wrapper($w: $WRAPPER-D, $wm:$WRAPPER-D-M){
   @include option(width, $w, $wm);
