@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa6fd2a-d1aa-44c0-9737-1c02a5e693bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/style/_animation.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/copyright.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/copyright.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/project/gui/button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/gui/button/button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/project/map/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/map/map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/project/map/map.pug" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/map/map.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/components/project/map/map.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/project/map/map.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/dist/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.ddeab160d3e601cf3eea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vendors.ddeab160d3e601cf3eea.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,22 +39,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/components/project/map" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/components/project/gui/button" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\temp\app\components\project" />
+      <recent name="D:\template\app\style\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\temp\app\components\project\gui\button" />
       <recent name="D:\temp\app\components\project\map" />
       <recent name="D:\temp\app\scripts" />
       <recent name="D:\temp\app\images" />
       <recent name="D:\temp\app\images\parts" />
-      <recent name="D:\temp\app\style" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\temp\app\components\project" />
-      <recent name="D:\template\app\style\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -111,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.serve" />
         <item itemvalue="npm.start" />
       </list>

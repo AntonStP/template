@@ -37,7 +37,7 @@
     &_crashed {
       animation: map-chashing 1.3s ease-in-out both;
       path {
-        fill: $WHITE;
+        fill: rgba($BLACK, .1);
       }
     }
   }

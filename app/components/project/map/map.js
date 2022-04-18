@@ -56,8 +56,6 @@ document.addEventListener('mousedown', function (event) {
     document.addEventListener('mousemove', onMouseMove);
 
     target.onmouseup = function() {
-        console.log("x", target.getBoundingClientRect().left - tCoord.left)
-        console.log("y", target.getBoundingClientRect().top)
         target.style.zIndex = '1';
         document.removeEventListener('mousemove', onMouseMove);
         target.onmouseup = null;

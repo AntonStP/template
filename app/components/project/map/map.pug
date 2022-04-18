@@ -10,9 +10,3 @@ mixin map(content,params)
 mixin map__part(content,params)
     .map__part(data-xxx=content.coord.x data-yyy=content.coord.y)&attributes()
         +picture(content.image)
-
-
-mixin icon(content, url)
-    svg(class="icon icon-")
-        use(href=`${content.src}#`)
-        //-use(xlink:href="/imag/img/sprite.svg#" + name)
